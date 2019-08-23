@@ -10,3 +10,92 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+
+* {
+  /* border: 1px solid red; */
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+header {
+  text-align: center;
+  color: #2B4E80;
+  font-size: 1.5em;
+}
+
+#box-and-woody-wrapper {
+  display: flex;
+  justify-content: center;
+
+}
+
+#box-wrapper {
+  background-color: #E6ECF4;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 28%;
+
+}
+
+#top-box-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-buttons {
+  width: 100%;
+  height: 3em;
+  font-size: 1em;
+  padding: .5em;
+}
+
+#ask-question-input {
+  color: #2B4E80;
+  background-color: #fff;
+  border: none;
+  margin-bottom: 1em;
+  width: 100%;
+  padding: 0px;
+}
+
+#get-your-answer-button {
+  color: #fff;
+  background-color: #607AA0;
+  border: none;
+}
+
+#eight-ball-img {
+  margin-top: 2em;
+  height: 100px;
+  width: 100px;
+  display: block;
+}
+
+#hidden-message {
+  display: none;
+  margin-top: 5em;
+}
+
+#random-msg {
+  display: none;
+}
+
+#button-wrapper {
+  text-align: right;
+}
+
+#clear-button {
+  color: #fff;
+  background-color: #D0CDCD;
+  height: 3em;
+  width: 5em;
+  border: none;
+}
+
+#woody-pic {
+  height: 400px;
+  width: 300px;
+}
